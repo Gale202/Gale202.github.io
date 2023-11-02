@@ -12,13 +12,3 @@ document.querySelector(".back_menu").addEventListener("click", () => {
   document.querySelector(".back_menu").style.display = "none";
 });
 
-document.getElementById("pa").addEventListener("click", () => {
-  document.getElementById("ro").style.display = "none";
-  document.querySelector(".container-video__pa").style.display = "block";
-});
-
-document.getElementById("ro").addEventListener("click", () => {
-  document.getElementById("pa").style.display = "none";
-  document.querySelector(".container-video__ro").style.display =
-    "block";
-});
