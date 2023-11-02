@@ -28,13 +28,16 @@ header {
     height: 100vh;
 }
 
-.header{
+.header {
     display: block;
     position: fixed;
     width: 100%;
 }
 
-.header, .article, .aside, .footer {
+.header,
+.article,
+.aside,
+.footer {
     padding: 20px;
 }
 
@@ -117,6 +120,7 @@ section img:hover {
     text-align: center;
     background-color: #332B47;
 }
+
 .footer p {
     display: block;
     background-color: #332B47;
@@ -195,7 +199,7 @@ section img:hover {
     filter: contrast(120%);
 }
 
-.div__fotos-sgo{
+.div__fotos-sgo {
     display: inline-flex;
     margin-left: 50px;
     margin-top: 30px;
@@ -207,13 +211,42 @@ section img:hover {
     box-shadow: 40px 20px 15px 0 #000;
 }
 
+.container-video__pa,
+.container-video__ro {
+    display: none;
+    padding: 60px;
+
+}
+
+
+.opciones__ {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+
+}
+
+.boton {
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
 /*
     ==================================
     Responsive Resolución menor 700px
     ==================================
 */
 @media screen and (max-width: 700px) {
-    
+
     .nav__responsive-button {
         display: flex;
         position: fixed;
@@ -255,14 +288,15 @@ section img:hover {
         left: 0;
         width: 100%;
         height: 100vh;
-        background: rgba(0,0,0,0.5);
-        
+        background: rgba(0, 0, 0, 0.5);
+
     }
-    .article-home{
+
+    .article-home {
         padding-top: 20px;
     }
 
-    .div__fotos-sgo{
+    .div__fotos-sgo {
         display: inline-flex;
         margin-left: 50px;
         margin-top: 30px;
@@ -275,7 +309,7 @@ section img:hover {
         z-index: 20;
     }
 
-    
+
     .section_iac {
         display: none;
         margin-left: 50px;
@@ -321,8 +355,9 @@ section img:hover {
     }
 
 
-    
+
 }
+
 /*
     ==================================
     Responsive Resolución mayor 700px
@@ -344,9 +379,10 @@ section img:hover {
         display: contents;
     }
 
-    .nav__responsive{
+    .nav__responsive {
         display: none;
     }
+
     .header {
         grid-column: 1 / span 3;
         text-align: center;
@@ -366,7 +402,7 @@ section img:hover {
         text-align: center;
     }
 
-    a:hover{
+    a:hover {
         background: #705E9C;
     }
 
@@ -394,7 +430,8 @@ section img:hover {
     .article-home section p {
         padding: 20px;
     }
-    .section_h2{
+
+    .section_h2 {
         font-size: 1.2em;
     }
 
@@ -415,7 +452,10 @@ section img:hover {
         box-shadow: 40px 20px 15px 0 #000;
     }
 
-    .b_teclab:hover, .b_unse:hover, .b_iac:hover, .b_egg:hover {
+    .b_teclab:hover,
+    .b_unse:hover,
+    .b_iac:hover,
+    .b_egg:hover {
         cursor: pointer;
         color: aliceblue;
     }
@@ -440,6 +480,7 @@ section img:hover {
         background-color: #332B47;
         font-size: 1.3em;
     }
+
     .footer p {
         display: block;
         background-color: #332B47;
@@ -464,4 +505,4 @@ section img:hover {
         background-color: #705E9C;
     }
 
-}    
+}
